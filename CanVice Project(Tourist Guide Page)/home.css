@@ -1,0 +1,170 @@
+.dropdown{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position:absolute ;
+    margin-left: 60%;
+}
+.home:hover .dropdown{
+    display: block;
+    background-color: rgb(91, 91, 91);
+    min-width: 160px;
+
+}
+
+tl:hover{
+    cursor: pointer;
+    color: black;
+    font-size: 27px;
+    transition: .3s ease-in;
+
+}
+
+
+
+#button:hover {
+    cursor: pointer;
+}
+
+.box1 {
+    background-color: whitesmoke;
+
+}
+
+.box2 {
+    background-color: whitesmoke;
+
+
+}
+
+.box3 {
+    background-color: whitesmoke;
+
+}
+
+.box4 {
+    background-color: whitesmoke;
+
+}
+
+.box1:hover {
+    cursor: pointer;
+    color: rgb(0, 81, 255);
+    box-shadow: 1px 1px 10px 5px grey;
+    background-color: greenyellow;
+    transition: .5s ease-in-out;
+
+}
+
+.box2:hover {
+    cursor: pointer;
+    color: rgb(0, 81, 255);
+    box-shadow: 1px 1px 10px 5px grey;
+    background-color: greenyellow;
+    transition: .5s ease-in-out;
+}
+
+.box3:hover {
+    cursor: pointer;
+    color: rgb(0, 81, 255);
+    box-shadow: 1px 1px 10px 5px grey;
+    background-color: greenyellow;
+    transition: .5s ease-in-out;
+}
+
+.box4:hover {
+    cursor: pointer;
+    color: rgb(0, 81, 255);
+    background-color: greenyellow;
+    box-shadow: 1px 1px 10px 5px grey;
+    transition: .5s ease-in-out;
+
+
+}
+
+.place1:hover {
+
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    box-shadow: 1px 2px 10px 4px grey;
+    transition: .3s ease-in-out;
+    /* color: beige; */
+}
+
+
+.place1 {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.title:hover {
+    text-decoration: underline rgb(2, 17, 117);
+
+}
+
+.listing:hover {
+    color: black;
+}
+
+.listing {
+    color: grey;
+}
+
+.vp1 {
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(103, 103, 224);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.rm1 {
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 92, 92);
+    border-radius: 5px;
+    font-size: 19px;
+    margin-left: 30px;
+}
+
+.bt1:hover {
+    color: rgb(0, 165, 165);
+}
+
+.bt1 {
+    color: rgb(28, 25, 94);
+}
+
+.overlay {
+    opacity: 0;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.155);
+    width: 100%;
+    font: size 20px;
+
+}
+
+.imgoverlay:hover .overlay {
+    opacity: 1;
+}
+
+.content {
+    background-color: rgb(189, 253, 93);
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+    color: blue;
+}
+
