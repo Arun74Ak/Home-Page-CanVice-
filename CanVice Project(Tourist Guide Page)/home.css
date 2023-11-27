@@ -7,7 +7,7 @@
 }
 .home:hover .dropdown{
     display: block;
-    background-color: rgb(91, 91, 91);
+    background-color: rgb(255, 141, 141);
     min-width: 160px;
 
 }
